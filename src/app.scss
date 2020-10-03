@@ -1,0 +1,21 @@
+.App {
+  height: 100vh;
+
+  .container {
+    background-color: #fff;
+  
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row;
+  
+    margin: 10rem auto;
+  
+    width: 500px;
+    height: 500px;
+  
+    height: 70%;
+  
+  }
+}
+

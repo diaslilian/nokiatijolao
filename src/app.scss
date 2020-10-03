@@ -3,19 +3,53 @@
 
   .container {
     background-color: #fff;
-  
+
+    background-image: url("./images/nokia.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+
     display: flex;
     align-items: center !important;
     justify-content: center !important;
     flex-direction: row;
-  
+
     margin: 10rem auto;
-  
+
     width: 500px;
-    height: 500px;
-  
-    height: 70%;
-  
+    height: 100%;
+
+    .box-text {
+      margin-bottom: 8rem;
+
+      height: auto;
+      vertical-align: middle;
+
+      flex-direction: column;
+      display: flex;
+
+      position: relative;
+      width: 9rem;
+
+      p {
+        text-overflow: ellipsis !important;
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        word-break: break-all !important;
+
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        height: 2.5rem;
+      }
+
+      fieldset {
+        height: 1rem;
+
+        input {
+          width: 9rem;
+        }
+      }
+    }
   }
 }
-
